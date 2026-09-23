@@ -5,7 +5,6 @@ Run:
 
 import os
 import streamlit as st
-from pinecone import Pinecone
 from backend import ask_question, get_index
 
 st.set_page_config(page_title="Resume Chat", layout="centered")
